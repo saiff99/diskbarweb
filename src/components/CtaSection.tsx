@@ -1,4 +1,4 @@
-import { Apple } from "lucide-react";
+import { Download } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const CtaSection = () => (
@@ -11,7 +11,7 @@ const CtaSection = () => (
           Take control of your external drives with the cleanest menu bar utility for macOS.
         </p>
         <a href="#" className="glow-button flex items-center gap-2 text-lg px-10 py-5 rounded-xl mt-2">
-          <Apple className="w-6 h-6" />
+          <Download className="w-6 h-6" />
           Download for macOS
         </a>
         <p className="text-xs text-muted-foreground">Requires macOS 12 or later · Free to start</p>

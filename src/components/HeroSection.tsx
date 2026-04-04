@@ -1,4 +1,4 @@
-import { Apple, ArrowDown } from "lucide-react";
+import { Download, ArrowDown } from "lucide-react";
 import { motion } from "framer-motion";
 import mockupImg from "@/assets/4993c224-d0bf-499d-b20c-006eb0216fbb.webp";
 
@@ -21,9 +21,9 @@ const HeroSection = () => (
         transition={{ duration: 0.6, delay: 0.1 }}
         className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight"
       >
-        Control Your Disks.
+        Control Your Disks
         <br />
-        <span className="text-primary">Instantly.</span>
+        <span className="text-primary">From The Menu Bar</span>
       </motion.h1>
 
       <motion.p
@@ -42,7 +42,7 @@ const HeroSection = () => (
         className="flex flex-col sm:flex-row gap-4"
       >
         <a href="#download" className="glow-button flex items-center gap-2 text-base px-8 py-4 rounded-xl">
-          <Apple className="w-5 h-5" />
+          <Download className="w-5 h-5" />
           Download for macOS
         </a>
         <a
