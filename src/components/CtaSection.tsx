@@ -1,4 +1,4 @@
-import { Apple } from "lucide-react";
+import { Download } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const CtaSection = () => (
