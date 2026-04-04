@@ -1,5 +1,5 @@
 import AnimatedSection from "./AnimatedSection";
-import mockupImg from "@/assets/diskbar-mockup.jpg";
+import mockupImg from "@/assets/e9277785-65e5-4127-b48b-f986318cd9bb.png";
 
 const PreviewSection = () => (
   <section className="py-24 lg:py-32">
