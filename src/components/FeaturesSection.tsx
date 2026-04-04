@@ -11,7 +11,7 @@ const features = [
 ];
 
 const FeaturesSection = () => (
-  <section id="features" className="py-24 lg:py-32">
+  <section id="features" className="py-14 lg:py-20">
     <div className="section-container">
       <AnimatedSection className="text-center mb-16">
         <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-3">Features</p>
