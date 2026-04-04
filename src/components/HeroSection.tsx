@@ -1,6 +1,6 @@
 import { Apple, ArrowDown } from "lucide-react";
 import { motion } from "framer-motion";
-import mockupImg from "@/assets/diskbar-mockup.jpg";
+import mockupImg from "@/assets/886adc9e-2944-4aae-9a57-4ef577754960.webp";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center pt-16 hero-gradient overflow-hidden">
