@@ -58,7 +58,7 @@ const HeroSection = () => (
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className="relative mt-8 w-full max-w-lg"
+        className="relative mt-8 w-full max-w-sm"
       >
         <div className="glass-card p-2 animate-float">
           <img
