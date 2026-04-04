@@ -21,9 +21,9 @@ const HeroSection = () => (
         transition={{ duration: 0.6, delay: 0.1 }}
         className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight"
       >
-        Control Your Disks.
+        Control Your Disks
         <br />
-        <span className="text-primary">Instantly.</span>
+        <span className="text-primary">From The Menu Bar</span>
       </motion.h1>
 
       <motion.p
