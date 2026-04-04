@@ -1,4 +1,4 @@
-import { HardDrive, Eject, Monitor, Zap, Bell, Usb } from "lucide-react";
+import { HardDrive, CircleArrowUp, Monitor, Zap, Bell, Usb } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const features = [
