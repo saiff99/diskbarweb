@@ -64,7 +64,7 @@ const HeroSection = () => (
           <img
             src={mockupImg}
             alt="DiskBar macOS menu bar app showing connected drives"
-            className="w-full rounded-xl"
+            className="w-full rounded-xl object-cover"
             width={800}
             height={900}
           />
