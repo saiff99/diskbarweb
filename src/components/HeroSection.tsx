@@ -42,7 +42,7 @@ const HeroSection = () => (
         className="flex flex-col sm:flex-row gap-4"
       >
         <a href="#download" className="glow-button flex items-center gap-2 text-base px-8 py-4 rounded-xl">
-          <Apple className="w-5 h-5" />
+          <Download className="w-5 h-5" />
           Download for macOS
         </a>
         <a
