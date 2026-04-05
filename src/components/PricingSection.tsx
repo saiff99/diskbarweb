@@ -12,12 +12,13 @@ const plans = [
   },
   {
     name: "Pro",
-    price: "$19",
+    price: "$9",
     period: "one-time",
     desc: "For power users",
-    features: ["Unlimited drives", "Open / eject drive", "Eject all unlocked", "Regular updates", "Advanced support"],
+    features: ["Unlimited drives", "Open / eject drive", "Eject all unlocked", "Regular updates", "Advanced support", "30-day money back guarantee"],
     cta: "Upgrade to Pro",
     highlighted: true,
+    badge: "Limited time offer",
   },
 ];
 
@@ -40,9 +41,10 @@ const PricingSection = () => (
               )}
               <h3 className="text-xl font-bold">{p.name}</h3>
               <p className="text-muted-foreground text-sm mt-1 mb-4">{p.desc}</p>
-              <div className="flex items-baseline gap-1 mb-6">
+              <div className="flex items-baseline gap-2 mb-6">
                 <span className="text-4xl font-extrabold">{p.price}</span>
                 {p.period && <span className="text-muted-foreground text-sm">/{p.period}</span>}
+                {(p as any).badge && <span className="text-xs font-semibold text-primary bg-primary/10 px-2 py-0.5 rounded-full">{(p as any).badge}</span>}
               </div>
               <ul className="flex-1 space-y-3 mb-8">
                 {p.features.map((f) => (
