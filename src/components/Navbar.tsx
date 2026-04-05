@@ -1,10 +1,10 @@
-import { HardDrive } from "lucide-react";
+import logo from "@/assets/logo.webp";
 
 const Navbar = () => (
   <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
     <div className="section-container flex items-center justify-between h-16">
       <a href="#" className="flex items-center gap-2 font-bold text-lg">
-        <HardDrive className="w-6 h-6 text-primary" />
+        <img src={logo} alt="DiskBar logo" className="w-7 h-7" />
         DiskBar
       </a>
       <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
