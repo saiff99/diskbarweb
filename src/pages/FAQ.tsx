@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -30,6 +32,9 @@ const FAQ = () => (
     <Navbar />
     <main className="pt-28 pb-20">
       <div className="section-container max-w-3xl">
+        <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6">
+          <ArrowLeft className="w-4 h-4" /> Back to Home
+        </Link>
         <h1 className="text-4xl font-bold mb-8">Frequently Asked Questions</h1>
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, i) => (
