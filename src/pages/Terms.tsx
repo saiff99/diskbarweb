@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -6,6 +8,9 @@ const Terms = () => (
     <Navbar />
     <main className="pt-28 pb-20">
       <div className="section-container max-w-3xl">
+        <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6">
+          <ArrowLeft className="w-4 h-4" /> Back to Home
+        </Link>
         <h1 className="text-4xl font-bold mb-6">Terms of Service</h1>
         <p className="text-muted-foreground mb-6 text-sm">Last updated: April 5, 2026</p>
 
