@@ -47,7 +47,7 @@ const HeroSection = () => (
         </a>
         <a
           href="#pricing"
-          className="glow-button flex items-center gap-2 px-6 py-2.5 rounded-full font-medium text-center"
+          className="glow-button-outline flex items-center gap-2 px-6 py-2.5 rounded-full font-medium text-center"
         >
           Buy Pro — $29 →
         </a>
