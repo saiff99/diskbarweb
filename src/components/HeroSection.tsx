@@ -41,10 +41,13 @@ const HeroSection = () => (
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex flex-col sm:flex-row gap-4"
       >
-        <a href="#download" className="glow-button flex items-center gap-2 px-6 py-2.5 rounded-full font-medium">
-          <Download className="w-4 h-4" />
-          Download for macOS
-        </a>
+        <div className="flex flex-col items-center gap-1">
+          <a href="#download" className="glow-button flex items-center gap-2 px-6 py-2.5 rounded-full font-medium">
+            <Download className="w-4 h-4" />
+            Download for macOS
+          </a>
+          <span className="text-xs text-muted-foreground">Free Download</span>
+        </div>
         <div className="flex flex-col items-center gap-1">
           <a
             href="#pricing"
