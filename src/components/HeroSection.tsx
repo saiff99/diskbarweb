@@ -41,13 +41,13 @@ const HeroSection = () => (
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex flex-col sm:flex-row gap-4"
       >
-        <a href="#download" className="glow-button flex items-center gap-2 text-base px-8 py-4 rounded-xl">
+        <a href="#download" className="glow-button flex items-center gap-2 text-base px-8 py-4 rounded-full">
           <Download className="w-5 h-5" />
           Download for macOS
         </a>
         <a
           href="#features"
-          className="flex items-center gap-2 px-8 py-4 rounded-xl border border-border bg-secondary/50 text-foreground font-semibold hover:bg-secondary transition-colors"
+          className="flex items-center gap-2 px-8 py-4 rounded-full border border-border bg-secondary/50 text-foreground font-semibold hover:bg-secondary transition-colors"
         >
           <ArrowDown className="w-5 h-5" />
           View Features
