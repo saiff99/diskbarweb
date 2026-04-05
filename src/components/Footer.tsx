@@ -2,7 +2,7 @@ import { HardDrive } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => (
-  <footer className="border-t border-border py-12">
+  <footer className="border-t border-border py-6">
     <div className="section-container flex flex-col md:flex-row items-center justify-between gap-6">
       <div className="flex items-center gap-2 font-bold">
         <HardDrive className="w-5 h-5 text-primary" />
