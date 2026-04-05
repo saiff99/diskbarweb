@@ -47,7 +47,7 @@ const HeroSection = () => (
         </a>
         <a
           href="#features"
-          className="flex items-center gap-2 px-8 py-4 rounded-xl border border-border bg-secondary/50 text-foreground font-semibold hover:bg-secondary transition-colors"
+          className="flex items-center gap-2 px-8 py-4 rounded-full border border-border bg-secondary/50 text-foreground font-semibold hover:bg-secondary transition-colors"
         >
           <ArrowDown className="w-5 h-5" />
           View Features
