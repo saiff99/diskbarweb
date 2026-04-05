@@ -1,4 +1,5 @@
 import { HardDrive } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => (
   <footer className="border-t border-border py-12">
@@ -7,10 +8,13 @@ const Footer = () => (
         <HardDrive className="w-5 h-5 text-primary" />
         DiskBar
       </div>
-      <div className="flex gap-6 text-sm text-muted-foreground">
-        <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-        <a href="#" className="hover:text-foreground transition-colors">Terms</a>
-        <a href="#" className="hover:text-foreground transition-colors">Contact</a>
+      <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
+        <Link to="/about" className="hover:text-foreground transition-colors">About</Link>
+        <Link to="/privacy" className="hover:text-foreground transition-colors">Privacy</Link>
+        <Link to="/terms" className="hover:text-foreground transition-colors">Terms</Link>
+        <Link to="/contact" className="hover:text-foreground transition-colors">Contact</Link>
+        <Link to="/refund" className="hover:text-foreground transition-colors">Refund</Link>
+        <Link to="/faq" className="hover:text-foreground transition-colors">FAQ</Link>
       </div>
       <p className="text-xs text-muted-foreground">© 2026 DiskBar. All rights reserved.</p>
     </div>
