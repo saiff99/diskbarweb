@@ -45,12 +45,15 @@ const HeroSection = () => (
           <Download className="w-4 h-4" />
           Download for macOS
         </a>
-        <a
-          href="#pricing"
-          className="glow-button-outline flex items-center gap-2 px-6 py-2.5 rounded-full font-medium text-center"
-        >
-          Buy Pro — $29 →
-        </a>
+        <div className="flex flex-col items-center gap-1">
+          <a
+            href="#pricing"
+            className="glow-button-outline flex items-center gap-2 px-6 py-2.5 rounded-full font-medium text-center"
+          >
+            Buy Pro — $9 <span className="text-xs opacity-75">Limited time offer</span> →
+          </a>
+          <span className="text-xs text-muted-foreground">30-day money back guarantee</span>
+        </div>
       </motion.div>
 
       <motion.div
