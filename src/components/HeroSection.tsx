@@ -41,13 +41,13 @@ const HeroSection = () => (
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex flex-col sm:flex-row gap-4"
       >
-        <a href="#download" className="glow-button flex items-center gap-2 text-sm px-6 py-2.5 rounded-full">
+        <a href="#download" className="glow-button flex items-center gap-2 text-sm px-6 py-2.5 rounded-full font-medium">
           <Download className="w-4 h-4" />
           Download for macOS
         </a>
         <a
           href="#pricing"
-          className="flex items-center gap-2 px-6 py-2.5 rounded-full border border-border bg-white text-black text-sm font-semibold hover:bg-white/90 transition-colors"
+          className="flex items-center gap-2 px-6 py-2.5 rounded-full border border-border bg-white text-black text-sm hover:bg-white/90 transition-colors font-medium"
         >
           Buy Pro — $29 →
         </a>
