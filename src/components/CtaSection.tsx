@@ -10,7 +10,7 @@ const CtaSection = () => (
         <p className="text-muted-foreground text-lg max-w-lg">
           Take control of your external drives with the cleanest menu bar utility for macOS.
         </p>
-        <a href="#" className="glow-button flex items-center gap-2 text-lg px-10 py-5 rounded-full mt-2">
+        <a href="#" className="glow-button flex items-center gap-2 px-10 py-5 rounded-full mt-2 text-base">
           <Download className="w-6 h-6" />
           Download for macOS
         </a>
