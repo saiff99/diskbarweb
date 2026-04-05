@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const Privacy = () => (
   <div className="min-h-screen bg-background text-foreground">
-    <Navbar />
-    <main className="pt-28 pb-20">
+    <main className="pt-16 pb-20">
       <div className="section-container max-w-3xl">
         <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6">
           <ArrowLeft className="w-4 h-4" /> Back to Home
@@ -35,9 +33,13 @@ const Privacy = () => (
         </p>
 
         <h2 className="text-xl font-semibold mb-3">5. Contact</h2>
-        <p className="text-muted-foreground">
-          If you have questions about this privacy policy, please reach out via our <a href="/contact" className="text-primary hover:underline">Contact page</a>.
+        <p className="text-muted-foreground mb-8">
+          If you have questions about this privacy policy, please reach out via our <Link to="/contact" className="text-primary hover:underline">Contact page</Link>.
         </p>
+
+        <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <ArrowLeft className="w-4 h-4" /> Back to Home
+        </Link>
       </div>
     </main>
     <Footer />

@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const Refund = () => (
   <div className="min-h-screen bg-background text-foreground">
-    <Navbar />
-    <main className="pt-28 pb-20">
+    <main className="pt-16 pb-20">
       <div className="section-container max-w-3xl">
         <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6">
           <ArrowLeft className="w-4 h-4" /> Back to Home
@@ -21,7 +19,7 @@ const Refund = () => (
 
         <h2 className="text-xl font-semibold mb-3">How to Request a Refund</h2>
         <p className="text-muted-foreground mb-6">
-          To request a refund, simply reach out via our <a href="/contact" className="text-primary hover:underline">Contact page</a> with your purchase email and order details. We'll process your refund within 5–7 business days.
+          To request a refund, simply reach out via our <Link to="/contact" className="text-primary hover:underline">Contact page</Link> with your purchase email and order details. We'll process your refund within 5–7 business days.
         </p>
 
         <h2 className="text-xl font-semibold mb-3">Eligibility</h2>
@@ -30,9 +28,13 @@ const Refund = () => (
         </p>
 
         <h2 className="text-xl font-semibold mb-3">After the Refund</h2>
-        <p className="text-muted-foreground">
+        <p className="text-muted-foreground mb-8">
           Once a refund is processed, your Pro license will be deactivated. You may continue using the free version of DiskBar.
         </p>
+
+        <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <ArrowLeft className="w-4 h-4" /> Back to Home
+        </Link>
       </div>
     </main>
     <Footer />

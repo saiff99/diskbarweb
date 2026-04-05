@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const Terms = () => (
   <div className="min-h-screen bg-background text-foreground">
-    <Navbar />
-    <main className="pt-28 pb-20">
+    <main className="pt-16 pb-20">
       <div className="section-container max-w-3xl">
         <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6">
           <ArrowLeft className="w-4 h-4" /> Back to Home
@@ -35,9 +33,13 @@ const Terms = () => (
         </p>
 
         <h2 className="text-xl font-semibold mb-3">5. Changes</h2>
-        <p className="text-muted-foreground">
+        <p className="text-muted-foreground mb-8">
           We reserve the right to update these terms at any time. Continued use of DiskBar after changes constitutes acceptance of the updated terms.
         </p>
+
+        <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <ArrowLeft className="w-4 h-4" /> Back to Home
+        </Link>
       </div>
     </main>
     <Footer />
