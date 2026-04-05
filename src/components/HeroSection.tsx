@@ -46,11 +46,10 @@ const HeroSection = () => (
           Download for macOS
         </a>
         <a
-          href="#features"
-          className="flex items-center gap-2 px-6 py-2.5 rounded-full border border-border bg-secondary/50 text-foreground text-sm font-semibold hover:bg-secondary transition-colors"
+          href="#pricing"
+          className="flex items-center gap-2 px-6 py-2.5 rounded-full border border-border bg-white text-black text-sm font-semibold hover:bg-white/90 transition-colors"
         >
-          <ArrowDown className="w-4 h-4" />
-          View Features
+          Buy Pro — $29 →
         </a>
       </motion.div>
 
