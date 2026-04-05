@@ -1,4 +1,4 @@
-import { Download, ArrowDown } from "lucide-react";
+import { Download } from "lucide-react";
 import { motion } from "framer-motion";
 import mockupImg from "@/assets/4993c224-d0bf-499d-b20c-006eb0216fbb.webp";
 
