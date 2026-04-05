@@ -92,6 +92,15 @@
     transform: translateY(-1px);
   }
 
+  .glow-button-outline {
+    @apply bg-white text-black font-semibold px-6 py-3 rounded-full transition-all duration-300;
+  }
+
+  .glow-button-outline:hover {
+    box-shadow: 0 0 30px hsl(var(--glow) / 0.5);
+    transform: translateY(-1px);
+  }
+
   .section-container {
     @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
   }
