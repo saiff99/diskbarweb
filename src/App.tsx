@@ -5,6 +5,12 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import About from "./pages/About.tsx";
+import Privacy from "./pages/Privacy.tsx";
+import Terms from "./pages/Terms.tsx";
+import Contact from "./pages/Contact.tsx";
+import Refund from "./pages/Refund.tsx";
+import FAQ from "./pages/FAQ.tsx";
 
 const queryClient = new QueryClient();
 
