@@ -1,11 +1,11 @@
-import { HardDrive } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.webp";
 
 const Footer = () => (
   <footer className="border-t border-border py-3">
     <div className="section-container flex flex-col md:flex-row items-center justify-between gap-3">
       <div className="flex items-center gap-1.5 font-bold text-sm">
-        <HardDrive className="w-4 h-4 text-primary" />
+        <img src={logo} alt="DiskBar logo" className="w-4 h-4" />
         DiskBar
       </div>
       <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
