@@ -1,4 +1,5 @@
 import logo from "@/assets/logo.webp";
+import { Download } from "lucide-react";
 
 const Navbar = () => (
   <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
@@ -12,7 +13,8 @@ const Navbar = () => (
         <a href="#how-it-works" className="hover:text-foreground transition-colors">How It Works</a>
         <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
       </div>
-      <a href="#download" className="glow-button text-sm px-4 py-2">
+      <a href="#download" className="glow-button text-sm px-4 py-2 flex items-center gap-2">
+        <Download className="w-4 h-4" />
         Download
       </a>
     </div>
