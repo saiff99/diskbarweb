@@ -28,9 +28,8 @@ const Navbar = () => {
           <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
         </div>
         {showHome ? (
-          <a href="#" className="glow-button text-sm px-4 py-2 flex items-center gap-2">
+          <a href="#" className="glow-button text-sm px-3 py-2">
             <Home className="w-4 h-4" />
-            Home
           </a>
         ) : (
           <a href="#download" className="glow-button text-sm px-4 py-2 flex items-center gap-2">
