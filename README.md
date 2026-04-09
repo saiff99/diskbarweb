@@ -1,5 +1,2 @@
-# Welcome to your Lovable project
-
-TODO: Document your project here
-
+Visit : https://diskbar.com
 Last Update 07 Apr 2026
